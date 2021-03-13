@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_schedule"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Edit Schedule" />
+
+        <item
+            android:id="@+id/Upperbody"
+            android:icon="@drawable/upperbody"
+            android:title="Upper Body"/>
+
+        <item
+            android:id="@+id/Lowerbody"
+            android:icon="@drawable/lowerbody"
+            android:title="Lower Body"/>
+
+        <item
+            android:id="@+id/backcore"
+            android:icon="@drawable/core"
+            android:title="Core"/>
+
+        <item
+            android:id="@+id/cardio"
+            android:icon="@drawable/cardio"
+            android:title="Cardio"/>
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Logout" />
+    </group>
+
+</menu>

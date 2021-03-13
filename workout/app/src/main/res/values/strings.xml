@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+    <string name="app_name">Lifter</string>
+
+    <string name="register"><u>Not Registered? Register Now!</u></string>
+
+    <string name="login"><u>Already registered? Login now!</u></string>
+
+    <string name="register_page"><u>Register</u></string>
+
+    <string name="login_page"><u>Login</u></string>
+
+    <string name="back">Back</string>
+
+    <string name="menu">MENU</string>
+
+    <string name="add_workout">Add Workout Muscle</string>
+
+    <string name="add_schedule">Add Workout Time</string>
+
+    <string name="no_workout">NO WORKOUTS AVAILABLE</string>
+
+    <string name="clear">Clear</string>
+
+    <string name="edit_schedule">Edit Schedule</string>
+
+    <string name="no_schedule">NO SCHEDULES AVAILABLE</string>
+
+    <string name="title_activity_menu">MenuActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="title_activity_sidebar">Lifter</string>
+
+
+
+    <string-array name="upperexercises">
+        <item>Barbell/Dumbell Bench Press(Chest)</item>
+        <item>Dumbbell Flyes (Chest)</item>
+        <item>Barbell/Dumbell Overhead Press(Shoulders)</item>
+        <item>Dumbbell Front/Lateral Flyes(Shoulders)</item>
+        <item>Bicep Curls</item>
+        <item>Preacher Curls with barbell/dumbbells(Biceps)</item>
+        <item>Dips(Triceps)</item>
+        <item>Skullcrusher(Triceps)</item>
+        <item>Pushdowns with Rope/Barbell(Tricep)</item>
+    </string-array>
+
+
+
+
+    <string-array name="lowerexercises">
+        <item>Squats and Split Squats(flat/elevated)</item>
+        <item>Deadlifts</item>
+        <item>Single Leg Squats(Quads)</item>
+        <item>Wall Sits(Quads)</item>
+        <item>Single Leg Kettlebell Deadlift(Hamstrings)</item>
+        <item>Glute Bridge(Hamstring)</item>
+        <item>Calf Raises</item>
+        <item>Jump Rope(Calves)</item>
+    </string-array>
+
+
+    <string-array name="backcore">
+        <item>Pull-Ups(Back)</item>
+        <item>Cable Row(Back)</item>
+        <item>Pull-Downs(Back)</item>
+        <item>Crunches(Core)</item>
+        <item>Panks(Core)</item>>
+        <item>Toes to Bar(Core)</item>
+    </string-array>
+
+    <string-array name="cardio">
+        <item>Short Distance Sprinting</item>
+        <item>Long Distance Running</item>
+        <item>Cycling</item>
+        <item>Elliptical</item>
+        <item>Swimming</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lifter.app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Lifter"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"
+                    android:label="Lifter"/>
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Register"></activity>
+
+        <activity
+            android:name=".MySchedule"
+            android:label="@string/edit_schedule"></activity>
+
+        <activity
+            android:name=".AddTimeActivity"
+            android:label="@string/add_schedule"></activity>
+
+        <activity
+            android:name=".AddWorkoutActivity"
+            android:label="@string/add_workout"></activity>
+
+        <activity
+            android:name=".Sidebar"
+            android:label="@string/title_activity_sidebar"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleTop"/>
+
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login"></activity>
+
+        <activity android:name=".UpperBody" />
+
+        <activity
+            android:name=".UpperPop"
+            android:theme="@style/AppTheme.PopupTheme" />
+
+        <activity android:name=".LowerBody" />
+
+        <activity
+            android:name=".LowerPop"
+            android:theme="@style/AppTheme.PopupTheme" />
+
+        <activity android:name=".Cardio" />
+
+        <activity
+            android:name=".CardioPop"
+            android:theme="@style/AppTheme.PopupTheme" />
+
+        <activity
+            android:name=".BackCorePop"
+            android:theme="@style/AppTheme.PopupTheme" />
+
+        <activity android:name=".BackCore">
+
+        </activity>
+
+        <service android:name=".BackgroundService"
+            android:exported="false"/>
+
+    </application>
+
+</manifest>
